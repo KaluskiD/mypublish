@@ -16,7 +16,7 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://npm.pkg.github.com'
           # Defaults to the user or organization that owns the workflow file
-          scope: '@octocat'  # <-- This is where you should set your GH username as scope, rather than trying to overwrite it in "npm publish"
+          scope: '@KaluskiD'  # <-- This is where you should set your GH username as scope, rather than trying to overwrite it in "npm publish"
       - run: npm ci
         working-directory: sample-packages/npm
       - run: npm publish
