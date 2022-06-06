@@ -1,14 +1,10 @@
 {
   "your": "json config here",
-  "name": "mypublish",
+  "name": "@kaluskid/mypublish",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/KaluskiD/mypublish.git"
   },
   "author": "",
   "license": "ISC",
